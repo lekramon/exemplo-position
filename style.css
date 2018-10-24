@@ -1,0 +1,52 @@
+body{
+    background-color: blueviolet;
+}
+
+.externa{
+    border: solid 2px palevioletred;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.interna{
+    padding: 215px;
+    margin: 15px;
+}
+
+.externa>:first-child{
+    background-color: #009246;
+    position: relative;
+}
+
+.externa>:nth-child(2){
+    background-color: yellow;
+    position: absolute;
+}
+
+.externa>:nth-child(3){
+    background-color: #ce2b37;
+    position: relative;
+}
+
+.externa>:nth-child(4){
+    background-color: #ffffff;
+    position: absolute;
+}
+
+.externatxt{
+display: flex;
+padding: 30px;
+}
+
+.externatxt> :first-child{
+    position: relative;
+    left: 140px;
+    bottom: 30px;
+    color: red;
+}
+
+.internatxt{
+    font-size: 50px;
+    font-weight: bold;
+}
